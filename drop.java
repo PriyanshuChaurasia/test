@@ -31,30 +31,8 @@ public class drop {
 		Select sel=new Select(element);
 		sel.selectByIndex(2);
 		 Thread.sleep(3000);
-		//String selvalue= sel.getFirstSelectedOption().getText();
-		//System.out.println("selected value=="+selvalue);
-		//sel.selectByValue("1");
-		 
-		// Actions action=new Actions(driver);
-		//action.moveToElement(e).build().perform();
-		
-		
-		
-	/*	List<WebElement> options=sel.getOptions();
-		
-		for(WebElement option:options )
-		{
-		
-			if(option.equals(val))
-			{
-				option.click();
-				Thread.sleep(2000);
-			}
-			//System.out.println(option);
-		}*/
-		
-		//driver.close();
-		//driver.quit();
+	 driver.close();
+	 driver.quit();
 		
 		
 		
